@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0071bc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #004080;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #0059b3;
+}
+
+.hero {
+    background-color: #0071bc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.hero-text {
+    margin-right: 40px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hero img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+
+.destinations, .blog {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destinations h2, .blog h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.destinations .cards, .blog .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card a {
+    background-color: #0071bc;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card a:hover {
+    background-color: #0059b3;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 50px 20px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-sections div {
+    width: 30%;
+}
+
+.gallery img {
+    width: 80px;
+    margin: 5px;
+}
+
+.quick-links a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
